@@ -16,10 +16,22 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 msgid "Cluster Templates"
-msgstr "Шаблоны Кластера"
+msgstr "Шаблоны кластера"
 
 msgid "Clusters"
 msgstr "Кластеры"
 
 msgid "Container Infra"
-msgstr "Контейнер Infra"
+msgstr "Kubernetes кластер"
+
+msgid "Container Infra - Cluster Templates"
+msgstr "Kubernetes кластер - Шаблоны кластера"
+
+msgid "Container Infra - Clusters"
+msgstr "Kubernetes кластер - Кластеры"
+
+msgid "Container Infra - Quotas"
+msgstr "Kubernetes кластер - Квоты"
+
+msgid "Quotas"
+msgstr "Квоты"
