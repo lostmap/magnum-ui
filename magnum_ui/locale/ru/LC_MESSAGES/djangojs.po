@@ -31,12 +31,8 @@ msgstr "Серверный порт API"
 msgid "An arbitrary human-readable name"
 msgstr "Произвольное человеко-читаемое имя"
 
-msgid ""
-"Arbitrary labels in the form of key=value pairs to associate with a cluster "
-"templates. May be used multiple times."
-msgstr ""
-"Произвольные метки в форме пар ключь=значение связанные с шаблонами "
-"кластера. Могут быть использованы несколько раз."
+msgid "Arbitrary labels in the form of key=value pairs to associate with a cluster templates. May be used multiple times."
+msgstr "Произвольные метки в форме пар ключ=значение связанные с шаблонами кластера. Могут быть использованы несколько раз."
 
 msgid "CHECK COMPLETE"
 msgstr "Проверка завершена"
@@ -67,13 +63,13 @@ msgid "Choose a Container Orchestration Engine"
 msgstr "Выберите движок оркестрации контейнеров."
 
 msgid "Choose a Flavor for the Master Node"
-msgstr "Выберите тип инстанса для мастер узла"
+msgstr "Выберите тип инстанса для Мастера"
 
 msgid "Choose a Flavor for the Node"
-msgstr "Выберите тип инстанса для узла."
+msgstr "Выберите тип инстанса для Узла."
 
 msgid "Choose a Keypair"
-msgstr "Выберите ключевую пару"
+msgstr "Выберите SSH ключ"
 
 msgid "Choose a Network Driver"
 msgstr "Выбрать сетевой драйвер"
@@ -200,13 +196,22 @@ msgid "Device Mapper"
 msgstr "Сопоставитель устройств"
 
 msgid "Disable TLS"
-msgstr "Выключить TLS."
+msgstr "Выключить TLS"
+
+msgid "Hidden"
+msgstr "Скрытый"
+
+msgid "Insecure Registry"
+msgstr "Insecure Docker Registry"
+
+msgid "The URL of docker registry."
+msgstr "Укажите url для Insecure Docker Registry."
 
 msgid "Disable TLS in the cluster template. Default: False"
 msgstr "Выключить TLS в шаблоне кластера. По умолчанию: Нет."
 
 msgid "Discovery URL"
-msgstr "URL поиска"
+msgstr "Service Discovery URL"
 
 msgid "Docker"
 msgstr "Docker"
@@ -289,7 +294,7 @@ msgid "Info"
 msgstr "Информация"
 
 msgid "Keypair"
-msgstr "Ключевая пара"
+msgstr "SSH ключ"
 
 msgid "Kubernetes"
 msgstr "Kubernetes"
@@ -301,22 +306,22 @@ msgid "Make cluster template public. Default: False"
 msgstr "Сделать шаблон кластера общедоступным. По умолчанию: Нет"
 
 msgid "Master Addresses"
-msgstr "Адреса мастеров"
+msgstr "Адреса Мастеров"
 
 msgid "Master Count"
-msgstr "Количество мастеров"
+msgstr "Количество Мастеров"
 
 msgid "Master Flavor"
-msgstr "Тип инстанса мастера"
+msgstr "Тип инстанса Мастера"
 
 msgid "Master Flavor ID"
-msgstr "ID типа инстанса Master"
+msgstr "Типа инстанса Мастера"
 
 msgid "Master LB"
-msgstr "Главный балансировщик нагрузки"
+msgstr "Балансировщик нагрузки Мастера"
 
 msgid "Master LB Enabled"
-msgstr "Главный Балансировщик Нагрузки Разрешен "
+msgstr "Балансировщик нагрузки Мастера включен"
 
 msgid "Mesos"
 msgstr "Mesos"
@@ -325,7 +330,7 @@ msgid "Misc"
 msgstr "Другое"
 
 msgid "Miscellaneous"
-msgstr "Другое"
+msgstr "Miscellaneous"
 
 msgid "Name"
 msgstr "Имя"
@@ -337,16 +342,16 @@ msgid "Network Driver"
 msgstr "Сетевой драйвер"
 
 msgid "No Proxy"
-msgstr "Нет прокси"
+msgstr "No Proxy"
 
 msgid "Node Addresses"
-msgstr "Адреса узлов"
+msgstr "Адреса Узлов"
 
 msgid "Node Count"
-msgstr "Количество узлов"
+msgstr "Количество Узлов"
 
 msgid "Node Spec"
-msgstr "Спека узла"
+msgstr "Настройка Узлов"
 
 msgid "Nodes"
 msgstr "Узлы"
@@ -397,7 +402,7 @@ msgid "Size"
 msgstr "Размер"
 
 msgid "Specifies custom discovery url for node discovery."
-msgstr "Укажите url поиска для поиска узлов."
+msgstr "Укажите url для кастомного Service Discovery."
 
 msgid "Specify cluster name and choose cluster template"
 msgstr "Укажите имя кластера и выберите шаблон кластера "
@@ -411,7 +416,7 @@ msgstr "Укажите движок оркестрации контейнеро�
 msgid ""
 "Specify the nameserver to use for the cluster template. Default: 8.8.8.8"
 msgstr ""
-"Укажите сервер имен для использования в шаблоне кластера. По умолчанию: "
+"Укажите сервер DNS для использования в шаблоне кластера. По умолчанию: "
 "8.8.8.8"
 
 msgid "Specify the size in GB for the docker volume"
@@ -426,11 +431,39 @@ msgstr "Статус"
 msgid "TLS Disabled"
 msgstr "TLS запрещен"
 
+msgid "Stats"
+msgstr "Статистика использования"
+
+msgid "Used {$ ctrl.stats.clusters $} of {$ ctrl.quota.clusters $}"
+msgstr "Использовано {$ ctrl.stats.clusters $} из {$ ctrl.quota.clusters $}"
+
+msgid "Update Cluster"
+msgstr "Обновить кластер"
+
+msgid "Update Cluster Template"
+msgstr "Обновить шаблон кластера"
+
+msgid "Name of the cluster template."
+msgstr "Выберите имя шаблона кластера."
+
+msgid "Name of the cluster."
+msgstr "Выберите имя кластера."
+
 msgid "The DNS nameserver to use for this cluster template"
-msgstr "Сервер имен DNS для использования в этом шаблоне кластера"
+msgstr "Сервер DNS для использования в этом шаблоне кластера"
 
 msgid "The cluster node count."
 msgstr "Количество узлов кластера."
+
+msgid "Specify the number of master nodes, cluster nodes and docker volume size for the cluster."
+msgstr "Укажите количество Мастеров, Узлов и размер диска Docker для кластера."
+
+msgid "If not specified, the value specified in Cluster Template will be used."
+msgstr ""
+"Если не указан, то будет использован размер, указанный в шаблоне кластера."
+
+msgid "When the selected cluster template contains keypair, user can either provide a new keypair for the cluster or inherit one from the cluster template. When the selected cluster template has no keypair attached, user has to provide a keypair for the cluster."
+msgstr "Если выбранный шаблон кластера содержит SSH ключ, пользователь может либо предоставить новый SSH ключ для кластера, либо наследовать его от шаблона кластера. Когда к выбранному шаблону кластера не прикреплен SSH ключ, пользователь должен предоставить SSH ключ для кластера."
 
 msgid "The http_proxy address to use for nodes in cluster"
 msgstr "Адреса http_proxy для узлов в кластере."
@@ -460,7 +493,7 @@ msgstr ""
 "умолчанию: m1.small"
 
 msgid "The number of master nodes for the cluster."
-msgstr "Количество главных узлов для кластера."
+msgstr "Количество мастеров кластера."
 
 msgid "The size in GB for Docker Volume. Default: 25"
 msgstr "Размер диска Docker в ГБ. По умолчанию: 25"
@@ -471,6 +504,12 @@ msgstr ""
 
 msgid "Timeout"
 msgstr "Таймаут"
+
+msgid "The timeout for cluster creation in minutes."
+msgstr "Таймаут для создания кластера в минутах"
+
+msgid "Set to 0 for no timeout. The default is no timeout."
+msgstr "По-умолчанию таймаут создания отсутствует"
 
 msgid "UPDATE COMPLETE"
 msgstr "Обновление завершено"
